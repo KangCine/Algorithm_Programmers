@@ -1,0 +1,12 @@
+package com.level.level01;
+
+public class Â¦¼ö¿ÍÈ¦¼ö {
+
+}
+
+class Solution02 {
+    public String solution(int num) {
+        String answer = "";
+        return answer;
+    }
+}
