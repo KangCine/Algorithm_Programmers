@@ -1,13 +1,9 @@
 // 직사각형 별찍기
-package com.level.level01;
+package com.codingtest.level01;
 
 import java.util.Scanner;
 
-public class level01_03직사각형별찍기{
-
-}
-
-class Solution03 {
+public class NO12969 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
@@ -15,8 +11,8 @@ class Solution03 {
 
         System.out.println(a + b);
         
-        for(int i = 0; i < a; i++) {
-        	for(int j = 0; j < b; j++) {
+        for(int i = 0; i < b; i++) {
+        	for(int j = 0; j < a; j++) {
         		System.out.print("*");
         	}
         	System.out.println();
