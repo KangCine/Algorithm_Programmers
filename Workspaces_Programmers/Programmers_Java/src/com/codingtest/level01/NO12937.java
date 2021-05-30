@@ -1,7 +1,7 @@
 // Â¦¼ö¿Í È¦¼ö
-package com.level.level01;
+package com.codingtest.level01;
 
-public class level01_02Â¦¼ö¿ÍÈ¦¼ö {
+public class NO12937 {
 	public static void main(String[] args) {
     	Solution02 solution02 = new Solution02();
     	System.out.println(solution02.solution(3));
