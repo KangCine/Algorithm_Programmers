@@ -3,20 +3,20 @@ package com.codingtest.level01;
 
 import java.util.Arrays;
 
-public class NO42576 {
+public class 완주하지못한선수 {
 
     public static void main(String[] args) {
     	
     	String [] participant = {"leo", "kiki", "eden", "leo"};
     	String [] completion = {"eden", "kiki", "leo"};
     	
-    	Solution solution = new Solution();
+    	Solution완주하지못한선수 solution = new Solution완주하지못한선수();
     	System.out.println(solution.solution(participant, completion));
     	
 	}
 }
 
-class Solution {
+class Solution완주하지못한선수 {
     public String solution(String[] participant, String[] completion) {
     	
     	String tmp = null;
@@ -45,7 +45,7 @@ class Solution {
 /*
 효율성 테스트에 통과하지 못한 코드
 
-class Solution {
+class Solution완주하지못한선수 {
     public String solution(String[] participant, String[] completion) {
     	
     	for(int i = 0; i < participant.length; i++) {
