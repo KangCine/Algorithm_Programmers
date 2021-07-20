@@ -1,21 +1,21 @@
 // 로또의 최고 순위와 최저 순위
-package com.codingtest.level01;
+package com.level01.로또의최고순위와최저순위;
 
 import java.util.Arrays;
 
-public class 로또의최고순위와최저순위 {
+public class MTest {
 	
 	public static void main(String[] args) {
 		
 		int [] lottos = {44, 1, 0, 0, 31, 25};
 		int [] win_nums = {31, 10, 45, 1, 6, 19};
 		
-		Soulution로또의최고순위와최저순위 sol = new Soulution로또의최고순위와최저순위();
-		System.out.println(Arrays.toString(sol.solution(lottos, win_nums)));
+		Soulution solution = new Soulution();
+		System.out.println(Arrays.toString(solution.solution(lottos, win_nums)));
 	}
 }
 
-class Soulution로또의최고순위와최저순위{
+class Soulution{
     public int[] solution(int[] lottos, int[] win_nums) {
     	
     	int count = 0;
